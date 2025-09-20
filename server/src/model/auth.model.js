@@ -72,6 +72,6 @@ authSchema.methods.comparePassword = async function (candidatePassword) {
 };
 
 // Create and export the model
-const AuthModel = mongoose.model("Auth", authSchema);
+const AuthModel = mongoose.model("AdminAuth", authSchema);
 
 module.exports = AuthModel;
